@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    margin: 30px auto;
+    width:150px;
+    padding:10px;
+    border-radius:10px;
+    border: 2px solid #ccc;
+    transition:all 0.6s ease;
+}
+
+.card:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.25);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
