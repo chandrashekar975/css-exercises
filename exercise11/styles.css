@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bouncing-text{
+    margin:70px auto;
+    font-size: 30px;
+    color: purple;
+    animation: bounce 2s linear infinite;
+}
+hr{
+    margin: 195px auto;
+    border: 1px solid black;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: translateY(+200px);
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
