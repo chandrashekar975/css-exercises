@@ -1,0 +1,33 @@
+.header{
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+table {
+    margin: 25px auto;
+    text-align: center;
+}
+
+.aside{
+    margin-top: 5px;
+    background-color: rgb(252, 248, 248);
+    float: left;
+    position:fixed;
+    width: 200px;
+    text-align: center;
+}
+.aside li{
+    list-style: none;
+    text-align: left;
+}
+.aside a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 428px) {
+    .aside{
+        display:none;
+    }
+}
