@@ -1,0 +1,12 @@
+body{
+    text-align:center;
+}
+#animateButton{
+    background-color:blue;
+    transition: all 0.5s;
+}
+
+#animateButton:hover{
+    background-color:green;
+    transform: scale(1.1);
+}
